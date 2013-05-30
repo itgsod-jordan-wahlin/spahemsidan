@@ -1,0 +1,74 @@
+body {
+	background-image: url('mountain.jpg');
+}
+
+
+#container {
+	height: 1000px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#menu li /*anger utseende hos menyraden*/
+{
+float: left;
+border-right: 1px solid #222;
+box-shadow: 1px 0 0 #444;
+position: relative;
+}
+#menu li#last /*anger utseendet hos den sista länken i menyraden*/
+{
+padding-right: 11px;
+border-right: none;
+box-shadow: none;
+}
+#menu li#last:hover /*anger vad som händer när musen dras över sista länken i menyraden*/
+{
+box-shadow:inset 0px 4px 8px rgba(0, 0, 0, 0.8);
+background-color: white;
+}
+
+#menu li:hover /*Detta händer när musen dras över länken i menyn*/
+{
+box-shadow:inset 0px 4px 8px rgba(0, 0, 0, 0.8);
+background-color: white;
+
+}
+
+#menu li a /*anger utseendet på länkarna i menyraden*/
+{
+float: left;
+padding: 15px 42px;
+color: 660066;
+text-transform: uppercase;
+font: bold 18px Arial, Helvetica;
+text-decoration: none;
+text-shadow: 0 1px 0 #000;
+/* text-decoration: none;
+display: block;*/
+
+}
+
+#menu, #menu ul
+{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+div#menu /*anger utseende på menu*/
+{
+top:200px;
+position: relative;
+width: 685px;
+height: 50px;
+border: 1px solid #222;
+background-color: #111;
+background-image: linear-gradient(hotpink, white);
+border-radius: 6px;
+box-shadow: 0 1px 1px #777;
+margin-right: auto;
+margin-left: auto;
+
+}

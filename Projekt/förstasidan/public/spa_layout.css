@@ -1,0 +1,45 @@
+#allframes {
+	width: 450px;
+	height: 475px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainframe {
+	position: relative;
+	background-image: url('rsz_awesomeflower.jpg');
+	height: 275px;
+	width: 450px;
+}
+	
+#textframe {
+	position: relative;
+	float: left;
+	background-color: pink;
+	height: 200px; 
+	width: 450px;
+}
+
+#button1 {
+
+}
+
+
+#button2 {
+
+}
+
+
+#button3 {
+
+}
+
+
+#button4 {
+
+}
+
+
+#button5 {
+	
+}
