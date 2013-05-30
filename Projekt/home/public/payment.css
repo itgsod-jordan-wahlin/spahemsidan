@@ -1,14 +1,21 @@
 body {
 	background-image: url('mountain.jpg');
 }
-
+#text {
+	position: relative;
+	top: 200px;
+	left: 100px;
+	height: 500px;
+	width: 800px;
+	background-color: hotpink;
+}
 
 #container {
 	height: 1000px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: yellow;
+	background-color: ;
 }
 
 #menu li /*anger utseende hos menyraden*/
