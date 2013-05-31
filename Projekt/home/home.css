@@ -71,5 +71,43 @@ border-radius: 6px;
 box-shadow: 0 1px 1px #777;
 margin-right: auto;
 margin-left: auto;
+}
+
+#sidemenu li 
+{
 
 }
+
+#sidemenu li#last
+{
+
+}
+
+#sidemenu li:hover
+{
+
+}
+
+#sidemenu li#last:hover
+{
+
+}
+
+#sidemenu li a
+{
+
+}
+
+#sidemenu, #sidemenu ul
+{
+
+}
+
+div#sidemenu
+{
+	border-radius: 6px;
+	position: absolute;
+	background-image: ()
+}
+
+
