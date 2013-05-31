@@ -1,8 +1,10 @@
-body {
+body 
+{
 	background-image: url('mountain.jpg');
 }
 
-#text {
+#text 
+{
 	position: relative;
 	top: 210px;
 	height: 500px;
@@ -15,12 +17,23 @@ body {
 	margin-left: auto;
 }
 
-#container {
+#container 
+{
 	height: 1000px;
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: ;
+}
+
+#information 
+{
+	top: 45px;
+	left: 250px;
+	height: 200px;
+	width: 201px;
+	background-color: lime;
+	position: absolute;
 }
 
 
@@ -160,5 +173,3 @@ div#sidemenu
 	box-shadow:inset 0px 4px 8px rgba(0, 0, 0, 0.8);
 	background-color: white;
 }
-
-
